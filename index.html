@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon ball world</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+    <script src="https://kit.fontawesome.com/8b3fa2476e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- การสร้าง menu -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dar bg-dark sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Dragon Ball World</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#slider" class="nav-link">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallary" class="nav-link">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">ติดต่องาน</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- การสร้าง Slider -->
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ul class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="3"></button>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3"></h1>
+                            <h1>Dragon Ball</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis magni dicta culpa consequuntur veniam, laboriosam aliquam, odit, optio iure quidem exercitationem inventore hic ea? Delectus perspiciatis architecto dicta voluptas! Laudantium!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3"></h1>
+                            <h1>Dragon Ball Z</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis magni dicta culpa consequuntur veniam, laboriosam aliquam, odit, optio iure quidem exercitationem inventore hic ea? Delectus perspiciatis architecto dicta voluptas! Laudantium!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3"></h1>
+                            <h1>Dragon Ball GT</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis magni dicta culpa consequuntur veniam, laboriosam aliquam, odit, optio iure quidem exercitationem inventore hic ea? Delectus perspiciatis architecto dicta voluptas! Laudantium!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-4">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3"></h1>
+                            <h1>Dragon Ball Super</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis magni dicta culpa consequuntur veniam, laboriosam aliquam, odit, optio iure quidem exercitationem inventore hic ea? Delectus perspiciatis architecto dicta voluptas! Laudantium!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- การสร้าง service -->
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="fa-solid fa-book-bookmark fa-3x mb-2"></i>
+                    <h1>เรื่องย่อ</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus nobis tempore corrupti veritatis reiciendis, necessitatibus exercitationem architecto accusamus inventore minima ipsum quae tenetur facere laboriosam labore numquam nemo officiis eveniet!</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fa-solid fa-bars-staggered fa-3x mb-2"></i>
+                    <h1>ไทม์ไลน์</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus nobis tempore corrupti veritatis reiciendis, necessitatibus exercitationem architecto accusamus inventore minima ipsum quae tenetur facere laboriosam labore numquam nemo officiis eveniet!</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fa-solid fa-people-group fa-3x mb-2"></i>
+                    <h1>ผู้สร้าง</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus nobis tempore corrupti veritatis reiciendis, necessitatibus exercitationem architecto accusamus inventore minima ipsum quae tenetur facere laboriosam labore numquam nemo officiis eveniet!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="p-5">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                        <h1>เกี่ยวกับเรา</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, tenetur. Inventore iste quis pariatur in dolore, neque ut nam saepe consequuntur eaque veritatis aspernatur doloribus quidem veniam asperiores! Reprehenderit, nisi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallary -->
+    <section id="gallary" class="p-5">
+        <div class="container">
+            <h1 class="text-center">Gallary</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem a recusandae reprehenderit excepturi, maxime deleniti aut facilis distinctio sunt consectetur quo alias! Ipsum ea necessitatibus delectus illo esse, sint aspernatur.</p>
+            <!-- images -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/originals/66/72/32/667232ef66f164c6e2f90904342a1fa8.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/originals/d5/7f/e5/d57fe586cc7702f5a68fe7e77732f805.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://w0.peakpx.com/wallpaper/111/1024/HD-wallpaper-goku-y-gohan-dragon-ball-dragon-ball-gt-dragon-ball-super-dragon-ball-z-goku-y-gohan-en-moto-motos.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/474x/a3/2b/f5/a32bf56c1f8b7247a0e3e126dc6b5558--in-color-first-time.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/originals/a7/8b/b5/a78bb5a69a62a664a17874438bb27e40.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/736x/a8/f8/59/a8f8595aeaa70cd77e5d01662aa28bb3.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/736x/9c/ea/90/9cea90149daa55de9864914c7c2ccbed.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/originals/ba/55/c2/ba55c2dc709f0224210b7b7037a424f8.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://w0.peakpx.com/wallpaper/263/172/HD-wallpaper-goku-dragon-ball-z-kamehameha.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="text-center p-4 bg-black text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; Nooktyk 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ติดต่องาน</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>ติดต่อเรื่อง</label>
+                            <input type="text" placeholder="ป้อนหัวข้อเรื่อง" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>รายละเอียดงาน</label>
+                            <textarea id="" cols="30" rows="5" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>อีเมลติดต่อกลับ</label>
+                            <input type="email" placeholder="ป้อนอีเมลของคุณ" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                    <button class="btn btn-success">ส่งข้อมูล</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

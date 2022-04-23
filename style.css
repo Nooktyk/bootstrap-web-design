@@ -1,0 +1,47 @@
+*{
+    font-family: 'Itim', cursive;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-image-1{
+    background-image: url('images/dragonball-1.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background-image: url('https://www.itl.cat/pngfile/big/298-2984756_dragon-ball-z-wallpaper-hd.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url('https://www.comboinfinito.com.br/principal/wp-content/uploads/2017/11/dragon-ball-gt.jpg');
+    background-size: cover;
+}
+
+.carousel-image-4{
+    background-image: url('https://staticg.sportskeeda.com/editor/2021/12/d6db3-16395972934562.png');
+    background-size: cover;
+}
+
+#about{
+    min-height: 200px;
+    position: relative;
+    background-image: url('images/galaxy-1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
